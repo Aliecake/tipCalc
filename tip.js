@@ -1,4 +1,4 @@
-//Made lovingly for Nato, who can never figure out what to tip.
+
 function calc() {
     const cost = Number(document.getElementById('billTotal').value);
     let meal = cost + cost * .625;
