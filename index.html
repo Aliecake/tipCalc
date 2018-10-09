@@ -2,11 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Tip Calculator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -18,8 +18,8 @@
         <h1>Tip Calculator</h1>
         <h3>A very simple 15% tip calculator with MA meal tax rate of 6.25%</h3>
         <form method="POST">
-            Bill Subtotal:
-            <input id="billTotal" type="number" min="0">
+            <label for="billTotal">Bill Subtotal:</label>
+            <input id="billTotal" name="billTotal" type="number" min="0">
             <button onclick="event.preventDefault(); return calc()">Calculate</button>
             <p>Tip:
                 <div id="tip">
