@@ -1,0 +1,21 @@
+{
+    "name": "tipCalc",
+    "short_name": "tipCalc",
+    "theme_color": "#d7e7c7",
+    "background_color": "#56687d",
+    "display": "fullscreen",
+    "scope": "./",
+    "start_url": "./index.html",
+    "icons": [
+      {
+        "src": "image/restaurant_cutlery512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "image/restaurant_cutlery16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+]
+}
