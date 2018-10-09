@@ -3,12 +3,18 @@ html {
 }
 body {
     overflow-x: hidden;
+    color: #56687d;
     background: linear-gradient(to bottom, #56687d 0%, #8bb1db 20%, #acd2e6 30%, #c2e8d7 50%, #d2f6ca 70%, #d7e7c7 100%);
 }
 h1 {
     text-align: center;
+    color:#d7e7c7;
+}
+#bill-subtotal, #tax-rate {
+    color: #d2f6ca;
 }
 #billTotal, #tax {
     display: block;
     margin: 3px;
+    color: #56687d;
 }

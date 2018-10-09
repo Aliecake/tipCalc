@@ -16,11 +16,10 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1>Tip Calculator</h1>
-        <h3>A very simple 15% tip calculator</h3>
         <form action="" method="POST" id="tip-form">
-            <label for="billTotal">Bill Subtotal:</label>
+            <label for="billTotal" id="bill-subtotal">Bill Subtotal:</label>
             <input id="billTotal" name="billTotal" type="number" min="0" value="0.00">
-            <label for="tax">Tax rate:</label>
+            <label for="tax" id="tax-rate">Tax rate:</label>
             <input id="tax" name="tax" type="number" min="0" value="6.25">
             <button onclick="event.preventDefault(); return calc()">Calculate</button>
             <p>Tip:
