@@ -22,7 +22,6 @@ h1 {
 footer {
     position: absolute;
     bottom: 0;
-    min-width: 100%;
     max-height: 30px;
     font-size: 12px;
 }
